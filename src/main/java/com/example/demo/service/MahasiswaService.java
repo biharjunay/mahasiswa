@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import com.example.demo.entity.Mahasiswa;
 
+
 public interface MahasiswaService {
     List<Mahasiswa> getMahasiswa();
     Optional<Mahasiswa> getMahasiswaById(Long id);

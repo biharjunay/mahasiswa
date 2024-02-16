@@ -5,11 +5,13 @@ import java.util.Optional;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.Mahasiswa;
 import com.example.demo.repository.MahasiswaRepository;
 import com.example.demo.service.MahasiswaService;
 
+@Service
 public class MahasiswaServiceImpl implements MahasiswaService {
     @Autowired
     private MahasiswaRepository mahasiswaRepository;
