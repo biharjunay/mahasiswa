@@ -8,7 +8,8 @@ import lombok.Data;
 public class Mahasiswa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long name;
+    private long id;
+    private String name;
     private long age;
     private String address;
 }
