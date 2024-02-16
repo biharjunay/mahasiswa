@@ -6,5 +6,9 @@ import lombok.Data;
 @Data
 @Table(name =  "shoes")
 public class Mahasiswa {
-    @
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long name;
+    private long age;
+    private String address;
 }
